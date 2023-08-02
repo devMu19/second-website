@@ -1,0 +1,21 @@
+<%- include('header')%>
+<!-- login -->
+<div class="login" id="login">
+    <div class="general">
+        <h2>login</h2>
+    </div>
+    <div class="container">
+        <div class="box">
+        <form action="/login" method="post">
+            <input class="inp"  type="email" name="email" placeholder="Your Email " required>
+            <input class="inp" type="password" name="password" placeholder="Password" required>
+            <input type="submit" name="login" value="login">
+        </form>
+        <div class="text">
+            <p>Welcome to this simple design, you can log in and follow all the new designs of front facades, back facades and even Full Stack.</p>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- End login -->
+<%- include('footer')%>

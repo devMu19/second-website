@@ -1,0 +1,12 @@
+<%- include('header')%>
+
+<form action="/errorsign" method="post">
+<div class="errorbutton">
+    <div class="box">
+<input name="errorh1" type="hidden" value=<%= obError %>>
+<h1 class="errorh1" name="errorh1" value=<%= obError %>><%= obError %></h1>
+<button >Go Back</button>
+</div>
+</div>
+</form>
+<%- include('footer')%>
